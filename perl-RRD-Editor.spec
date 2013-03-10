@@ -4,7 +4,7 @@
 %define		pdir	RRD
 %define		pnam	Editor
 %include	/usr/lib/rpm/macros.perl
-Summary:	RRD::Editor - Portable, standalone (no need for RRDs.pm) tool to create and edit RRD files.
+Summary:	Portable, standalone (no need for RRDs.pm) tool to create and edit RRD files
 Name:		perl-RRD-Editor
 Version:	0.16
 Release:	1
@@ -22,13 +22,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 RRD:Editor implements most of the functionality of RRDTOOL, apart from
 graphing, plus adds some new editing and portability features. It aims
 to be portable and self-contained (no need for RRDs.pm).
- 
+
 RRD::Editor provides the ability to add/delete DSs and RRAs and to
 get/set most of the parameters in DSs and RRAs (renaming, resizing
 etc). It also allows the data values stored in each RRA to be
 inspected and changed individually. That is, it provides almost
 complete control over the contents of an RRD.
- 
+
 The RRD files created by RRDTOOL use a binary format (let's call it
 native-double) that is not portable across platforms. In addition to
 this file format, RRD:Editor provides two new portable file formats
