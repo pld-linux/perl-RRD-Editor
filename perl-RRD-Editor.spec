@@ -58,6 +58,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/RRD/*.pm
-%{perl_vendorlib}/RRD/Editor
+%{perl_vendorlib}/RRD
 %{_mandir}/man3/*.3*
