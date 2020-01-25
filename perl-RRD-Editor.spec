@@ -3,7 +3,6 @@
 #
 %define		pdir	RRD
 %define		pnam	Editor
-%include	/usr/lib/rpm/macros.perl
 Summary:	Portable, standalone (no need for RRDs.pm) tool to create and edit RRD files
 Name:		perl-RRD-Editor
 Version:	0.16
