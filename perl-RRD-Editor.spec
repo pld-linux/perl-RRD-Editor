@@ -6,7 +6,7 @@
 Summary:	Portable, standalone (no need for RRDs.pm) tool to create and edit RRD files
 Name:		perl-RRD-Editor
 Version:	0.16
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/RRD/%{pdir}-%{pnam}-%{version}.tar.gz
